@@ -1,0 +1,172 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{background-color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+
+/*
+    Personalizar a Barra Superior
+*/
+.top:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+.lateral_direito 
+{
+    float: right;
+    display: flex;
+}
+.lateral_direito ul
+{  
+    overflow: auto;
+    padding: 20px 30px 20px 20px; 
+    list-style-type: none; 
+    justify-content: center; 
+    flex-direction: row; 
+    display: flex; 
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.lateral_direito ul  li{float: left; padding-top: 5px; }
+
+.lateral_direito ul img {margin-left: 10px;}
+
+.lateral_direito ul .google_conta{border-radius: 30px; width: 35px; height: 35px }
+.lateral_direito ul img.google_app_icon{width: 27px; height: 27px; margin-top: 5px; color: #737373;}
+
+.lateral_direito ul li a{font-size: 14.5px; padding: 5px; text-decoration: none; color: #212121;}
+.lateral_direito ul li a:hover{text-decoration: underline;}
+
+/*------------------------------------------------------------------------------
+    Personalizar a central
+------------------------------------------------------------------------------*/
+
+.flex_container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flex_container > div.central
+{
+   
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.central {padding: 90px; width: 100%;}
+
+.central .google_logo {padding-bottom: 8px;}
+.central .caixa_pesquisa
+{
+    width: 45.9%;
+    padding-top: 15px;
+}
+.central .caixa_pesquisa form .form_input
+{
+    height: 50px;
+    border-radius: 50px;
+    width: 100%;
+    border: 1px solid #dfe1e5;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_input:hover{box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.1);}
+
+form .microphone_google_logo
+{
+    width: 15px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+form .fa-keyboard-o{font-size: 20px; padding-left: 8px; padding-right: 20px; color: #6f6f6f;}
+form .fa-search{font-size: 15px; padding: 10px; color: #9aa0a6; }
+form .campo_input
+{
+    width: 79%;
+    height: 45px;
+    border: none;
+    font-size: 17px;
+    font-family: 'Arial';
+}
+
+.btn_lado_lado
+{
+    padding-top: 25px;
+}
+
+.btn_lado_lado .btn
+{
+    background-color: #f2f2f2;
+    padding: 10px 27px 10px 27px;
+    margin: 5px;
+    border: none;
+    color: #5f6368;
+    font-size: 15.2px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;    
+    cursor: pointer;
+}
+
+.texto
+{
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.texto span a{text-decoration: none; color: #1a0dab; padding-left: 5px;}
+
+.texto span a:hover {text-decoration: underline;}
+
+.btn_lado_lado .btn:hover{border: 1px solid #a9abae; outline: none; }
+/*******************************************************************************
+
+    Estilização do Footer
+
+*******************************************************************************/
+footer
+{
+    background-color: #f2f2f2;
+    padding-top: 15px;
+}
+footer p{color: #6f6f6f; padding: 15px 15px 15px 25px;}
+
+footer hr{border: 1px solid #e4e4e4;}
+
+footer .linha{background-color: #f2f2f2; padding: 15px;}
+
+.linha:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+footer .footer_esquerdo{float: left;}
+footer .footer_direito{float: right;}
+
+footer .footer_esquerdo a, footer .footer_direito a
+{
+    padding: 10px;
+    text-decoration: none;
+    color: #6f6f6f;
+}
+
+footer .footer_esquerdo a:hover, footer .footer_direito a:hover
+{
+    text-decoration: underline;
+}

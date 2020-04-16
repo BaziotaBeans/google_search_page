@@ -1,0 +1,15 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{background-color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+.flex-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+}
+.lateral_direito{ padding: 200px; }
+
+.lateral_direito ul{overflow: auto; list-style-type: none;}
+
+.lateral_direito ul  li{float: left;}
